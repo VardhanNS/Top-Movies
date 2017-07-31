@@ -1,0 +1,88 @@
+.countdownHolder{
+	letter-spacing:-3px;
+	display:inline-block;
+	line-height:normal;
+	vertical-align: middle;
+    margin-top: -3px;
+	padding:0 10px 0 0;
+}
+.countdownHolder > span {
+    float: left;
+}
+.crossline {
+	height:1px;
+	background:#444;
+	width:100%;
+	top:50%;
+	left:0;
+	position:absolute;
+	z-index:2;
+}
+.position{
+	display: inline-block;
+	height: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 12px;
+}
+
+.digit{
+	position:absolute;
+	display:block;
+	color:#fff;
+	font-size: 16px;
+    font-weight: 600;
+	top: 50% !important;
+    margin-top: -9px;
+    left: 2px;
+}
+
+.countDays, .countHours, .countMinutes, .countSeconds {
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);	
+	background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, #3A3A3A),
+		color-stop(0.5, #444444)
+	);
+	position:relative;
+	padding:0 2px;
+}
+
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;
+}
+
+.countDays + span:after,
+.countHours + span:after,
+.countMinutes + span:after,
+.countSeconds:after{
+	position:absolute;
+	font-size:10px;
+	color:#ffffff;
+	line-height:24px;
+	left:5px;
+}
+.countDays + span:after{
+	content:'D';
+}
+.countHours + span:after{
+	content:'H';
+}
+.countMinutes + span:after{
+	content:'M';
+}
+.countSeconds:after{
+	content:'S';
+	left:auto;
+	right:-7px;
+}

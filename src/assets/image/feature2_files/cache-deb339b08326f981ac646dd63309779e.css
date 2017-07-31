@@ -1,0 +1,4438 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+body p, body a, body h1, body h2, body h3, body h4, body h5, body h6, body span, body div, body li {
+  font-family: 'Open Sans', sans-serif;
+}
+body .ed-primary-btn {
+  background-color: #3778b0;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+body .ed-primary-btn:hover {
+  background-color: #4182bb !important;
+  text-decoration: none;
+}
+body .ed-secondary-btn {
+  background-color: #73d992;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+body .ed-secondary-btn:hover {
+  background-color: #6bd38a !important;
+  text-decoration: none;
+}
+header {
+  position: relative;
+  z-index: 999;
+}
+.course-search-box-nav{
+	display:none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff !important;
+}
+body header .home-login {
+  top: 1px !important;
+}
+/*body header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  padding-top: 20px;
+}*/
+body header nav.navbar-inverse {
+  border: none;
+}
+body header .home-login {
+  position: relative;
+  top: 14px;
+}
+
+body header .home-lo/*  -webkit-transform: scaleX(2);
+  -moz-transform: scaleX(2);*/gin button span.caret {
+  color: #fff;
+}
+.trending-topic {
+  margin: 0 0px 0 343px;
+}
+
+body .home-course-search {
+  background-image: url("../img/posterv2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 155px 0 40px;
+}
+body .home-course-search .search-for-course p {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000;
+}
+body .home-course-search .search-for-course p a {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000;
+}
+body .home-course-search h1 {
+  font-size: 33px;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px solid #000;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+body .whats-trending-on-edureka {
+  background-color: #e8e8e8;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+body .whats-trending-on-edureka ul.nav-tabs {
+  border: none;
+}
+body .whats-trending-on-edureka ul.nav-tabs li a {
+  font-size: 18px;
+  color: #555555;
+  font-weight: 700;
+  padding: 10px 0 4px 0;
+  border-bottom: 2px solid #e8e8e8;
+}
+body .whats-trending-on-edureka ul.nav-tabs li a:hover {
+  background-color: #e8e8e8;
+}
+body .whats-trending-on-edureka ul.nav-tabs li.active a {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #555555;
+}
+body .whats-trending-on-edureka ul {
+  margin: 0;
+}
+/*body .whats-trending-on-edureka ul .course-list {
+  background-color: #ffffff;
+  padding-left: 0;
+  padding-right: 0;
+  height: 270px;
+  text-align: center;
+}*/
+body .whats-trending-on-edureka ul .course-list h3 {
+  font-size: 13px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 19px;
+  margin: 11px 5px 0;
+  position: relative;
+  text-decoration: underline;
+  top: 10px;
+}
+body .whats-trending-on-edureka ul .course-list .extra-char {
+  position: relative !important;
+  top: 0px !important;
+}
+body .whats-trending-on-edureka ul .course-list p {
+  font-size: 12px;
+  color: #989898;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+body .whats-trending-on-edureka ul .course-list h5 {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 300;
+}
+body .whats-trending-on-edureka ul .course-list > ul {
+  border-top: 1px solid #d7d7d7;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+body .whats-trending-on-edureka ul .course-list > ul li {
+  padding: 0;
+  margin-right: 0 !important;
+}
+body .edureka-features {
+  background-color: #fff;
+  padding: 70px 0 98px;
+}
+body .edureka-features img {
+  margin-bottom: 36px;
+}
+body .edureka-features h4 {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+body .edureka-features p {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+body .register-to-learn {
+  background-color: #596468;
+  padding: 50px 0;
+  margin-top:20px;
+}
+body .register-to-learn h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0;
+}
+body .register-to-learn a.ed-secondary-btn {
+  width: 186px;
+  height: 54px;
+  padding-top: 17px;
+  text-align: center;
+  margin-left: 10px;
+}
+body .edureka-testimonials {
+  background-color: #f9f9f9;
+  padding: 10px 0;
+}
+body .edureka-testimonials h1, .whats-trending-on-edureka .tab-content h1 {
+   color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 auto 40px;
+    width: 70%;
+}
+body .edureka-testimonials a.ed-primary-btn, body .edureka-featured-on a.ed-primary-btn, .ed-primary-btn {
+  width: 158px;
+  height: 54px;
+  padding-top: 17px;
+  text-align: center;
+  /*margin-top: 40px;*/
+}
+body .edureka-testimonials .testimonials-slider .owl-nav {
+  position: relative;
+}
+body .edureka-testimonials .testimonials-slider .owl-nav i {
+  font-size: 30px;
+}
+/*body .edureka-testimonials .testimonials-slider .owl-nav .owl-prev {
+  position: absolute;
+  top: -158px;
+  left: -20px;
+}*/
+body .edureka-testimonials .testimonials-slider .owl-nav .owl-prev {
+  left: -47px;
+  position: absolute;
+  top: -158px;
+}
+/*body .edureka-testimonials .testimonials-slider .owl-nav .owl-next {
+  position: absolute;
+    right: -36px;
+    top: -158px;
+}*/
+body .edureka-testimonials .testimonials-slider .owl-nav .owl-next {
+  position: absolute;
+  right: -56px;
+  top: -158px;
+}
+body .edureka-testimonials .testimonials-slider .item {
+  min-height: 270px;
+  background-color: #ffffff;
+  padding: 10px 30px 20px 30px;
+  position: relative;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info {
+  margin-bottom: 50px;
+  clear: both;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info img {
+  float: left;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid #bcbcbc;
+  margin-right: 14px;
+  margin-top: -5px;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info > div h5 {
+  font-size: 18px;
+  color: #636363;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info > div p {
+  font-size: 14px;
+  color: #636363;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info > div ul {
+  margin: 0;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info > div ul li {
+  padding: 0px;
+}
+body .edureka-for-organisations {
+  background-color: #2e2e2e;
+  background-image: url("../img/edureka_organisations_bg.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  object-fit: cover;
+  padding: 70px 0;
+}
+body .edureka-for-organisations h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 1px #000;
+}
+body .edureka-for-organisations .ed-primary-btn {
+  width: 260px;
+  height: 54px;
+  padding-top: 17px;
+  text-align: center;
+}
+body .edureka-featured-on {
+  background-color: #ffffff;
+  padding-top: 90px;
+}
+.search_ico:hover{
+	text-decoration:none !important;
+}
+body .edureka-featured-on h1 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+/*body .edureka-featured-on ul {
+  margin-top: 60px;
+}*/
+body .edureka-featured-on ul {
+  margin-top: 0;
+}
+.review-image {
+  width: 78px;
+  float: left;
+}
+body .edureka-featured-on ul li {
+  margin-bottom: 18px;
+}
+body footer h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 0;
+}
+body footer h4 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+body footer p {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+}
+body footer .footer-list {
+  background-color: #313b3d;
+  padding-top: 44px;
+  padding-bottom: 20px;
+}
+body footer .footer-list ul.edureka-info li {
+  margin-bottom: 36px;
+}
+body footer .footer-list ul.edureka-info li:last-child {
+  margin-bottom: 0;
+}
+body footer .footer-list a.ed-secondary-btn {
+  width: 270px;
+  height: 45px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 700 !important;
+}
+body footer .footer-list .edureka-lists ul li a {
+  color: #999c9e;
+  font-size: 12px;
+}
+body footer .footer-list .edureka-lists ul li img {
+  float: left;
+  width: 40px;
+  margin: 4px 10px 0 0;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+body footer .footer-list .edureka-hiring a {
+  display: inline-block;
+}
+body footer .footer-list .edureka-hiring a img {
+  width: 100%;
+}
+body footer .footer-list .social-link li a {
+  font-size: 20px;
+  display: inline-block;
+  padding-top: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4391AB;
+  text-align: center;
+  transition: all 0.2s ease-in-out 0s i;
+  transition-font-size: 20px !important;
+}
+body footer .footer-list .social-link li a.facebook:hover {
+  background-color: #3b5998;
+}
+body footer .footer-list .social-link li a.twitter:hover {
+  background-color: #00aced;
+}
+body footer .footer-list .social-link li a.googleplus:hover {
+  background-color: #d34836;
+}
+body footer .footer-list .social-link li a.youtube:hover {
+  background-color: #c4302b;
+}
+body footer .footer-list ul {
+  margin: 0;
+  padding-left: 0;
+}
+body footer .footer-list ul li {
+  color: #346e9f;
+  margin-bottom: 10px;
+}
+body footer .footer-list ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+body footer .footer-list ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+body footer .footer-copyright {
+  background-color: #232b2d;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+body footer .footer-copyright img {
+  height: 16px;
+}
+body footer .footer-copyright p {
+  font-size: 12px;
+  color: #999c9e;
+  margin-top: 6px;
+}
+body footer .footer-copyright ul {
+  position: relative;
+  top: 22px;
+}
+body footer .footer-copyright ul li a {
+  font-size: 12px;
+  color: #999c9e;
+}
+body footer .footer-copyright ul li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+.media-icon-section {
+  background-color: #f2f2f2;
+  margin-top: 120px;
+}
+.edu-in-news > li {
+  margin: 0 !important;
+  padding: 15px 0;
+}
+.edu-in-news li a {
+  background-image: url("../img/edu-in-news1.jpg");
+  float: left;
+  margin-top: 10px;
+  padding: 20px 66px;
+  height: 50px;
+}
+.active-news {
+  background-position: 0px -51px;
+}
+.edu-news2 {
+  background-position: -143px 0;
+  width: 247px;
+}
+.edu-news3 {
+  background-position: -399px 0;
+  width: 258px;
+}
+.edu-news4 {
+  background-position: -668px 0;
+  width: 192px;
+}
+.edu-news1:hover {
+  background-position: 0px -51px;
+}
+.edu-news2:hover {
+  background-position: -143px -47px;
+}
+.edu-news3:hover {
+  background-position: -399px -49px;
+}
+.edu-news4:hover {
+  background-position: -668px -49px;
+}
+.edu-newstext2, .edu-newstext3, .edu-newstext4, .edu-newsfa2, .edu-newsfa3, .edu-newsfa4{
+	display:none;
+}
+.edu-in-news li .fa {
+  color: #ffffff;
+  font-size: 75px;
+  margin-left: -19px;
+  position: absolute;
+  top: -29px;
+}
+/*.edu-in-news li .fa {
+  color: #ffffff;
+  font-size: 41px;
+  margin-top: -56px;
+}*/
+.footer {
+  margin-top: 0 !important;
+}
+
+/*.video-panel {
+  background-color: #252f3a;
+  min-height: 563px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}*/
+.video-panel {
+  background-color: /*#252f3a*/#000;
+ /* min-height: 545px;*/
+ min-height: 520px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+/*.video-overlay {
+  background-color: #252f3a;
+  height: 100%;
+  opacity: 0.3;
+  position: relative;
+  width: 100%;
+  z-index: 9;
+  min-height:527px;
+}*/
+.owl-carousel .owl-controls .owl-nav .owl-prev, .owl-carousel .owl-controls .owl-nav .owl-next, .owl-carousel .owl-controls .owl-dot {
+  color: #989898;
+}
+/*.course-list {
+  background-color: #fafafa;
+  border: 1px solid #f1f1f1;
+  float: left;
+  height: 270px;
+  max-width: 186px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  vertical-align: top;
+  min-width: 190px;
+}*/
+.course-search-box-nav {
+  z-index:9;
+}
+.course-list {
+  background-color: #f9f9f9;
+  border: 1px solid #f1f1f1;
+  float: left;
+  height: 270px;
+  max-width: 215px;
+  min-width: 215px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+  vertical-align: top;
+}
+.owl-carousel .owl-item {
+  padding-left: 18px;
+}
+.course-list h4 {
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 14px 26px 5px;
+  padding-bottom: 14px;
+  min-height: 46px;
+}
+.course-list p {
+  color: #989898;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.whats-trending-on-edureka .owl-carousel .owl-stage {
+  width: 3450px !important;
+}
+.whats-trending-on-edureka .owl-carousel .owl-item {
+  width: 220px !important;
+}
+
+.border-side > span {
+  background-color: #fff;
+  position: relative;
+  top: 11px;
+  padding: 0 23px;
+}
+.borderbg-class{background-color: #f9f9f9 !important;}
+.border-side {
+  border-bottom: 1px solid #ddd;
+  font-size: 28px;
+  margin: 0 auto 15px;
+  width: 70%;
+}
+
+.popular-course, .popular-course a {
+  color: #777 !important;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.popular-course a:hover{
+	text-decoration:underline !important;
+	color:#fff !important;
+}
+.courses-slider a {
+  color: inherit;
+}
+.courses-slider a:hover, a:hover{
+	text-decoration:none;
+}
+.course-hoveritem {
+  position: absolute;
+  width: 215px;
+  display:none;
+}
+.img-panel-hvr {
+  background: none repeat scroll 0 0 rgba(91, 90, 86, 0.1);
+  padding: 36px 0;
+}
+.hvr-contnt-portion {
+  background-color: #f2f2f2;
+  padding: 13px 15px;
+  min-height: 170px;
+}
+.hvr-contnt-portion > p {
+  line-height: 32px;
+}
+
+.owl-carousel .owl-stage-outer {
+  margin-left: -8px;
+}
+.mob-imgpanel {
+  background-image: url("../img/posterv2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  left: 0;
+  min-height: 505px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+@media all and (max-width:767px){
+body header ul {
+  float: none;
+}
+	.video-div, .video-overlay, .video-panel {
+		display:none;
+}
+body header li input[type="text"] {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+  border: medium none;
+  border-radius: 0;
+  color: inherit;
+  display: inherit;
+  font-size: inherit;
+  height: 40px;
+  margin-left: 0;
+  padding-left: 52px;
+}
+.video-home{
+	display:none;
+}
+.navbar-homepage{
+	background-color:#222 !important;
+	margin-bottom:0 !important;
+}
+body .home-course-search {
+  background-image: url("../img/posterv2.jpg") !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  /*background-color:#252f3a !important;*/
+  padding: 22px 0 40px !important;
+}
+body .home-course-search .search-for-course {
+  padding: 20px 8px 10px !important;
+  width: 100% !important;
+}
+.edureka-featured-on h2, body .edureka-for-organisations h1, body .register-to-learn h1 {
+  font-size: 18px;
+}
+.edureka-featured-on h4 {
+  font-size: 14px;
+}
+body .edureka-featured-on {
+  padding-top: 0;
+}
+.media-icon-section {
+  margin-top: 50px;
+}
+body .register-to-learn a.ed-secondary-btn {
+  width: 217px;
+}
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body header ul {
+    float: right;
+  }
+  body header #navbar {
+    position: relative;
+  }
+  body header #navbar .main-search-blk {
+    position: absolute;
+    top: 4px;
+    left: 160px;
+  }
+  body header #navbar .main-search-blk .other-courses {
+    width: 480px;
+    padding: 20px;
+  }
+  body header #navbar .main-search-blk .other-courses ul {
+    float: left !important;
+    width: 75%;
+    border-right: 1px solid #d7d7d7;
+  }
+  body header #navbar .main-search-blk .other-courses ul li {
+    margin-bottom: 8px;
+  }
+  body header #navbar .main-search-blk .other-courses ul li a {
+    font-size: 14px;
+    color: #000;
+  }
+  body header #navbar .main-search-blk .other-courses ul li a:hover {
+    color: #999c9e;
+  }
+  body header #navbar .main-search-blk ul li {
+    padding: 0;
+  }
+  body header #navbar .main-search-blk ul .drop-down-list button {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+    border: medium none;
+    position: relative;
+    right: -4px;
+    top: 4px;
+    height: 35px;
+  }
+  body header #navbar .main-search-blk ul .search-box {
+    position: relative;
+  }
+  body header #navbar .main-search-blk ul .search-box input[type="text"] {
+    width: 240px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  body header #navbar .main-search-blk ul .search-box i.fa-search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ffffff;
+  }
+body .home-course-search {
+  background-size: cover;
+  height: 520px;
+  padding: 80px 0 40px !important;
+}
+  body .home-course-search .search-for-course {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+    padding: 20px 20px 10px 20px;
+    width: 90%;
+    border-radius: 3px;
+  }
+body .home-course-search .search-for-course table {
+  margin-bottom: 10px;
+  width: 100%;
+}
+  body .home-course-search .search-for-course table tr td {
+    color: #ffffff;
+    position: relative;
+  }
+
+  body .home-course-search .search-for-course table tr td input {
+    width: 100%;
+    height: 53px;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  body .home-course-search .search-for-course table tr td a.ed-primary-btn {
+    width: 100%;
+    height: 54px;
+    text-align: center;
+    padding-top: 17px;
+  }
+  body .home-course-search .search-for-course ul {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  body .home-course-search .search-for-course ul li {
+    width: 50%;
+    padding: 0;
+    float: left;
+    text-align: center;
+  }
+  body .home-course-search .search-for-course ul li h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  body .home-course-search .search-for-course ul li p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px #000;
+  }
+/*  body .whats-trending-on-edureka .trending-topic {
+    width: 420px;
+    margin: 0 auto;
+  }*/
+  body .whats-trending-on-edureka img {
+    height: 95px;
+    width: 195px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li {
+    margin-right: 40px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li:last-child {
+    margin-right: 0;
+  }
+  body .whats-trending-on-edureka ul {
+    margin: 0 auto;
+    display: block;
+    width: 91%;
+  }
+  body .whats-trending-on-edureka ul .course-list {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  body .whats-trending-on-edureka ul .course-list:last-child {
+    margin-bottom: 0;
+  }
+  body .edureka-features .row > div {
+    margin-bottom: 30px;
+  }
+  body .edureka-featured-on {
+    text-align: center;
+  }
+  body .edureka-featured-on ul {
+    display: inline-block;
+  }
+  body footer .blog-list {
+    margin-top: 40px;
+  }
+  body footer .edureka-lists .blog-list {
+    margin-top: 34px !important;
+  }
+  body footer .edureka-hiring {
+    margin-top: 30px;
+  }
+  body footer .edureka-hiring ul li {
+    float: left;
+    margin-left: 20px;
+  }
+  body footer .edureka-hiring ul li:first-child {
+    margin-left: 0;
+  }
+  body footer .social-link {
+    margin-top: 30px;
+  }
+  body footer .social-link h4 {
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body header ul {
+    float: right;
+  }
+  body header #navbar {
+    position: relative;
+  }
+  body header #navbar .main-search-blk {
+    position: absolute;
+    top: 4px;
+    left: 200px;
+  }
+  body header #navbar .main-search-blk .other-courses {
+    width: 580px;
+    padding: 20px;
+  }
+  body header #navbar .main-search-blk .other-courses ul {
+    float: left !important;
+    width: 75%;
+    border-right: 1px solid #d7d7d7;
+  }
+  body header #navbar .main-search-blk .other-courses ul li {
+    margin-bottom: 8px;
+  }
+  body header #navbar .main-search-blk .other-courses ul li a {
+    font-size: 14px;
+    color: #000;
+  }
+  body header #navbar .main-search-blk .other-courses ul li a:hover {
+    color: #999c9e;
+  }
+  body header #navbar .main-search-blk ul li {
+    padding: 0;
+  }
+  body header #navbar .main-search-blk ul .drop-down-list button {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+    border: medium none;
+    position: relative;
+    right: -4px;
+    top: 4px;
+    height: 35px;
+  }
+  body header #navbar .main-search-blk ul .search-box {
+    position: relative;
+  }
+  body header #navbar .main-search-blk ul .search-box input[type="text"] {
+    width: 400px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  body header #navbar .main-search-blk ul .search-box i.fa-search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ffffff;
+  }
+  body .home-course-search .search-for-course {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+    padding: 20px 20px 10px 20px;
+    width: 100%;
+    border-radius: 3px;
+  }
+body .home-course-search .search-for-course table {
+  margin-bottom: 10px;
+  width: 100%;
+}
+  body .home-course-search .search-for-course table tr td {
+    color: #ffffff;
+    position: relative;
+  }
+
+  body .home-course-search .search-for-course table tr td input {
+    width: 100%;
+    height: 53px;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  body .home-course-search .search-for-course table tr td a.ed-primary-btn {
+    width: 100%;
+    height: 54px;
+    text-align: center;
+    padding-top: 17px;
+  }
+  body .home-course-search .search-for-course ul {
+    width: 100%;
+    margin: 0;
+  }
+  body .home-course-search .search-for-course ul li {
+    width: 24.5%;
+    padding: 0;
+    text-align: center;
+  }
+  body .home-course-search .search-for-course ul li h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  body .home-course-search .search-for-course ul li p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px #000;
+  }
+/*  body .whats-trending-on-edureka .trending-topic {
+    width: 420px;
+    margin: 0 auto;
+  }*/
+/*  body .whats-trending-on-edureka img {
+    height: 95px;
+    width: 195px;
+  }*/
+  body .whats-trending-on-edureka ul.nav-tabs {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li {
+    margin-right: 40px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li:last-child {
+    margin-right: 0;
+  }
+  body .whats-trending-on-edureka ul {
+    margin: 0 auto;
+    width: 91%;
+  }
+  body .whats-trending-on-edureka ul .course-list {
+    margin-right: 16px;
+    margin-bottom: 20px;
+  }
+  body .whats-trending-on-edureka ul .course-list:last-child {
+    margin-right: 0;
+  }
+/*  body .edureka-featured-on ul {
+    margin-top: 210px;
+  }*/
+  body footer .edureka-lists .blog-list {
+    margin-top: 34px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body header ul {
+    float: right;
+  }
+  body header #navbar {
+    position: relative;
+  }
+  body header #navbar .main-search-blk {
+    position: absolute;
+    top: 4px;
+    left: 200px;
+    height: 48px !important;
+  }
+  body header #navbar .main-search-blk .other-courses {
+    width: 580px;
+    padding: 20px;
+  }
+  body header #navbar .main-search-blk .other-courses ul {
+    float: left !important;
+    width: 75%;
+    border-right: 1px solid #d7d7d7;
+  }
+  body header #navbar .main-search-blk .other-courses ul li {
+    margin-bottom: 8px;
+  }
+  body header #navbar .main-search-blk .other-courses ul li a {
+    font-size: 14px;
+    color: #000;
+  }
+  body header #navbar .main-search-blk .other-courses ul li a:hover {
+    color: #999c9e;
+  }
+  body header #navbar .main-search-blk ul li {
+    padding: 0;
+  }
+  body header #navbar .main-search-blk ul .drop-down-list button {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+    border: medium none;
+    position: relative;
+    right: -4px;
+    top: 4px;
+    height: 35px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  body header #navbar .main-search-blk ul .search-box {
+    position: relative;
+  }
+  body header #navbar .main-search-blk ul .search-box input[type="text"] {
+    width: 400px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  body header #navbar .main-search-blk ul .search-box i.fa-search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ffffff;
+  }
+  body .home-course-search .search-for-course {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+    padding: 20px 50px 10px 50px;
+    width: 100%;
+    border-radius: 3px;
+  }
+  body .home-course-search .search-for-course table {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  body .home-course-search .search-for-course table tr td {
+    color: #ffffff;
+    position: relative;
+  }
+
+  body .home-course-search .search-for-course table tr td input {
+    width: 100%;
+    height: 53px;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  body .home-course-search .search-for-course table tr td a.ed-primary-btn {
+    width: 100%;
+    height: 54px;
+    text-align: center;
+    padding-top: 17px;
+  }
+  body .home-course-search .search-for-course ul {
+    width: 100%;
+    margin: 0;
+  }
+  body .home-course-search .search-for-course ul li {
+    width: 24.5%;
+    padding: 0;
+    text-align: center;
+  }
+  body .home-course-search .search-for-course ul li h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  body .home-course-search .search-for-course ul li p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px #000;
+  }
+/*  body .whats-trending-on-edureka .trending-topic {
+    width: 420px;
+    margin: 0 auto;
+  }*/
+/*  body .whats-trending-on-edureka img {
+    height: 95px;
+    width: 185px;
+  }*/
+  body .whats-trending-on-edureka ul.nav-tabs {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li {
+    margin-right: 40px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li:last-child {
+    margin-right: 0;
+  }
+  body .whats-trending-on-edureka ul {
+    margin: 0 auto;
+    width: 89% !important;
+  }
+  body .whats-trending-on-edureka ul .course-list {
+    margin-right: 16px;
+    margin-bottom: 30px;
+  }
+  body .whats-trending-on-edureka ul .course-list:last-child {
+    margin-right: 0;
+  }
+  body .register-to-learn a {
+    position: relative;
+    top: -9px;
+  }
+/*  body .edureka-featured-on ul {
+    margin-top: 210px;
+  }*/
+  body footer ul.edureka-info li {
+    margin-bottom: 60px !important;
+  }
+  body footer ul.edureka-info li:last-child {
+    margin-bottom: 30px !important;
+  }
+  body footer .edureka-lists .blog-list {
+    margin-top: 34px !important;
+  }
+  body footer .footer-copyright ul {
+    float: right;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .home-course-search > .col-lg-12 {
+    position: relative;
+  }
+  .home-course-search .serach-box-pos {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    display: inline !important;
+    left: 34% !important;
+    padding: 0 !important;
+    position: fixed !important;
+    top: 5px;
+    width: 25% !important;
+    z-index: 100;
+  }
+  .home-course-search .serach-box-pos table {
+    margin-bottom: 0 !important;
+    width: 320px !important;
+  }
+  .home-course-search .serach-box-pos table td {
+    display: block;
+    width: 100%;
+  }
+  .home-course-search .serach-box-pos table td input[type="text"] {
+    width: 100% !important;
+    background: rgba(255, 255, 255, 0.5) !important;
+    height: 40px !important;
+    padding-left: 60px !important;
+  }
+  .home-course-search .serach-box-pos table td i {
+    right: 10px !important;
+    top: 10px !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+body .home-course-search .search-for-course {
+  width: 90% !important;
+}
+}
+
+body .home-course-search .search-for-course table tr td i.fa-search {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  right: 19px;
+  top: 16px;
+}
+.owl-controls {
+  display: block;
+}
+.edureka-testimonials .owl-controls {
+  display:block !important;
+}
+.wishlist-icon {
+  position: absolute;
+  right: 3px;
+  text-align: right;
+  width: 100%;
+}
+body .home-course-search .search-for-course {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        border-radius: 3px;
+        margin: 0 auto;
+        padding: 20px 50px 10px;
+        width: 70%;
+    }
+
+@-moz-document url-prefix() {
+body .home-course-search .search-for-course table tr td i.fa-search {
+  top: 7px;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+body .home-course-search .search-for-course {
+  width: 100% !important;
+}
+.video-overlay {
+  min-height: 507px;
+}
+.owl-controls {
+  display: block;
+}
+.mob-imgpanel {
+  background-position: -238px 0;
+  background-size: 131% auto;
+  min-height: 567px;
+  object-fit: cover;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info > div h5 {
+  font-size: 16px !important;
+}
+body .edureka-testimonials .testimonials-slider .item .user-info > div p {
+  font-size: 11px !important;
+}
+}
+@media only screen and (max-width:1024px) {
+.owl-controls {
+  display: block;
+}
+}
+@media only screen and (max-width: 991px) {
+.video-overlay {
+  min-height: 570px;
+}
+
+
+/*.video-panel {
+  min-height: 424px !important;
+}*/
+}
+@media only screen and (max-width: 768px) {
+
+.mob-imgpanel {
+  background-position: -141px 0;
+  background-size: 1147px auto;
+  min-height: 480px;
+}
+
+.popular-course, .popular-course a {
+	display:none;
+}
+.user-info.form-group {
+  padding-bottom: 0 !important;
+}
+body .edureka-for-organisations {
+  background-color: inherit;
+  background-size: inherit;
+}
+body .edureka-testimonials .testimonials-slider .owl-nav .owl-next {
+  right: -16px;
+}
+body .edureka-testimonials .testimonials-slider .owl-nav .owl-prev {
+  left: -26px;
+}
+.owl-carousel .owl-item {
+  padding-left: 5px !important;
+}
+
+body .edureka-courses .courses-slider .owl-nav .owl-prev {
+  left:15px !important;
+}
+.owl-carousel .owl-item {
+  padding-left: 59px !important;
+}
+body .edureka-courses .courses-slider .owl-nav .owl-next {
+
+  right: 26px !important;
+}
+
+  body header ul {
+    float: none;
+  }
+  .search-nav {
+  display: inline-block !important;
+}
+      body .home-course-search .search-for-course {
+        width: 100% !important;
+    }
+/*  body header .navbar-collapse {
+    background-color: #222222 !important;
+  }*/
+/*  body header li input[type="text"] {
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+  }*/
+/*  body header li #flag-list a {
+    color: #ffffff !important;
+  }*/
+  body .home-course-search {
+    background-size: cover;
+    background-position: 27% 0px;
+  }
+  body .home-course-search .search-for-course {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+    padding: 20px 20px 10px 20px;
+    width: 100%;
+    border-radius: 3px;
+  }
+body .home-course-search .search-for-course table {
+  margin-bottom: 8px;
+  width: 100%;
+}
+  body .home-course-search .search-for-course table tr td {
+    color: #ffffff;
+    position: relative;
+  }
+
+  body .home-course-search .search-for-course table tr td input {
+    width: 100%;
+    height: 53px;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  body .home-course-search .search-for-course table tr td a.ed-primary-btn {
+    width: 100%;
+    height: 54px;
+    text-align: center;
+    padding-top: 17px;
+  }
+  body .home-course-search .search-for-course ul {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  body .home-course-search .search-for-course ul li {
+    width: 25%;
+    padding: 0;
+    text-align: center;
+    float: left;
+  }
+  body .home-course-search .search-for-course ul li h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  body .home-course-search .search-for-course ul li p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px #000;
+  }
+  body .whats-trending-on-edureka {
+    text-align: center;
+  }
+/*  body .whats-trending-on-edureka img {
+    height: 95px;
+    width: 220px;
+  }*/
+  body .whats-trending-on-edureka ul.nav-tabs {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li {
+    clear: both;
+    display: block;
+    width: 100%;
+  }
+  body .whats-trending-on-edureka ul.nav-tabs li a {
+    padding: 18px 0;
+    display: block;
+    background-color: #f5f5f5;
+  }
+  body .whats-trending-on-edureka ul {
+    margin: 0 auto;
+    display: inline-block;
+    width: 90%;
+  }
+  body .whats-trending-on-edureka ul .course-list {
+    margin-bottom: 30px;
+    margin-right: 16px;
+  }
+  body .whats-trending-on-edureka ul .course-list:last-child {
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+  body .edureka-features .row > div {
+    margin-bottom: 30px;
+  }
+  body .register-to-learn h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  body .register-to-learn a {
+    margin-top: 30px;
+  }
+  body .edureka-featured-on {
+    text-align: center;
+  }
+  body .edureka-featured-on ul {
+    display: inline-block;
+  }
+  body footer .edureka-lists ul {
+    margin: 0;
+  }
+  body footer .edureka-hiring {
+    margin-top: 30px;
+  }
+  body footer .social-link {
+    margin-top: 30px;
+  }
+  body footer .social-link h4 {
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 650px) {
+	.wishlist-icon {
+  right: 3px;
+  width: 25%;
+}
+}
+@media only screen and (max-width: 550px) {
+
+body .home-course-search h1 {
+  font-size: 24px;
+  line-height: 38px;
+}
+.border-side {
+  font-size: 20px !important;
+}
+body .edureka-courses .courses-slider .owl-nav .owl-prev {
+  left: -26px !important;
+}
+body .edureka-courses .courses-slider .owl-nav .owl-next {
+  right: -27px !important;
+}
+.border-side {
+  width: 100% !important;
+}
+.edureka-testimonials .owl-carousel .owl-item {
+  padding-left: 7px !important;
+}
+body .home-course-search {
+  background-image: url("../img/home-bg.jpg") !important;
+
+}
+  body .home-course-search .search-for-course table tr td {
+    display: block;
+    width: 100%;
+  }
+body .home-course-search .search-for-course ul li {
+ width: 50%;
+}
+
+}
+
+.homesearch > .typeahead-result {
+  width: 100% !important;
+  position: absolute !important;
+}
+.homesearch > .typeahead-result > ul > li {
+  width: 100% !important;
+}
+
+.homesearch > .typeahead-result > ul > li > a > span > .avatar > img {
+  width: 35px;
+  height: auto;
+  border-radius: 40px !important;
+}
+.homesearch > .typeahead-result > ul > li > a > span > .avatar{
+float:left;
+}
+
+.homesearch > .typeahead-result > ul > li > a > span{
+	width: 100%;
+}
+
+.homesearch > .typeahead-result > ul > li > a > span > .title {
+  float: left;
+  text-align: left;
+  width: 90%;
+  padding-left: 9px;
+}
+.homesearch {
+  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+  left: 0 !important;
+  position: relative;
+}
+.homesearch > .typeahead-field > .typeahead-button > i.fa-search{
+	top: -47px !important;
+        -webkit-margin-before: 11px;
+}
+.homesearch > .typeahead-field input, .typeahead-select {
+  background:rgba(0, 0, 0, 0.6) !important;
+  border: 0 none;
+}
+.homesearch > .typeahead-field {
+  width: 100%;
+}
+@media only screen and (min-width:320px) and (max-width: 767px)  {
+	.homesearch > .typeahead-result > ul > li > a > span > .title {
+  float: left;
+  padding-left: 9px;
+  text-align: left;
+  width: 83%;
+}
+.homesearch > .typeahead-field > .typeahead-button > i.fa-search {
+  top: 0 !important;
+  right: -26px;
+}
+}
+.edureka-dell-homapage {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 42px;
+}
+.edureka-dell-homapage > a.mainhomedellres {
+    display: none;
+}
+@media only screen and (min-width:320px) and (max-width: 767px)  {
+.edureka-dell-homapage > a.mainhomedellres {
+    display:block;
+}
+.edureka-dell-homapage > a.mainhomedell {
+    display:none;
+}
+.edureka-dell-homapage {
+  right: 0px;
+}
+}
+
+/* 
+ *  Owl Carousel - Animate Plugin
+ */
+.owl-carousel .animated {
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owl-carousel .owl-animated-in {
+  z-index: 0;
+}
+.owl-carousel .owl-animated-out {
+  z-index: 1;
+}
+.owl-carousel .fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl-height {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+/* 
+ *  Core Owl Carousel CSS File
+ */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1;
+}
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+}
+.owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  /* fix for flashing background */
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-controls .owl-nav .owl-prev,
+.owl-carousel .owl-controls .owl-nav .owl-next,
+.owl-carousel .owl-controls .owl-dot {
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.owl-carousel.owl-loaded {
+  display: block;
+}
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+.owl-carousel.owl-hidden {
+  opacity: 0;
+}
+.owl-carousel .owl-refresh .owl-item {
+  display: none;
+}
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+}
+.owl-carousel.owl-text-select-on .owl-item {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+.owl-carousel .owl-grab {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -o-grab;
+  cursor: -ms-grab;
+  cursor: grab;
+}
+.owl-carousel.owl-rtl {
+  direction: rtl;
+}
+.owl-carousel.owl-rtl .owl-item {
+  float: right;
+}
+
+/* No Js */
+.no-js .owl-carousel {
+  display: block;
+}
+
+/* 
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease;
+  -moz-transition: opacity 400ms ease;
+  -ms-transition: opacity 400ms ease;
+  -o-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+}
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+}
+
+/* 
+ * 	Owl Carousel - Video Plugin
+ */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000;
+}
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: scale 100ms ease;
+  -moz-transition: scale 100ms ease;
+  -ms-transition: scale 100ms ease;
+  -o-transition: scale 100ms ease;
+  transition: scale 100ms ease;
+}
+.owl-carousel .owl-video-play-icon:hover {
+  -webkit-transition: scale(1.3, 1.3);
+  -moz-transition: scale(1.3, 1.3);
+  -ms-transition: scale(1.3, 1.3);
+  -o-transition: scale(1.3, 1.3);
+  transition: scale(1.3, 1.3);
+}
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none;
+}
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  -webkit-transition: opacity 400ms ease;
+  -moz-transition: opacity 400ms ease;
+  -ms-transition: opacity 400ms ease;
+  -o-transition: opacity 400ms ease;
+  transition: opacity 400ms ease;
+}
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+}
+.owl-theme .owl-controls .owl-page span, #mobile-carousel .owl-dot span {
+  background: none repeat scroll 0 0 #869791;
+  border-radius: 20px;
+  display: block;
+  height: 12px;
+  margin: 5px 7px;
+  opacity: 0.5;
+  width: 12px;
+}
+#mobile-carousel .owl-dots {
+  text-align: center;
+}
+#mobile-carousel .owl-dot {
+  display: inline-block;
+}
+
+
+/*!
+Video.js Default Styles (http://videojs.com)
+Version 4.12.5
+Create your own skin at http://designer.videojs.com
+*/
+/* SKIN
+================================================================================
+The main class name for all skin-specific styles. To make your own skin,
+replace all occurrences of 'vjs-default-skin' with a new name. Then add your new
+skin name to your video tag instead of the default skin.
+e.g. <video class="video-js my-skin-name">
+*/
+.vjs-default-skin {
+  color: #cccccc;
+}
+/* Custom Icon Font
+--------------------------------------------------------------------------------
+The control icons are from a custom font. Each icon corresponds to a character
+(e.g. "\e001"). Font icons allow for easy scaling and coloring of icons.
+*/
+@font-face {
+  font-family: 'VideoJS';
+  src: url('../fonts/vjs.eot');
+  src: url('../fonts/vjs.eot?#iefix') format('embedded-opentype'), url('../fonts/vjs.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Base UI Component Classes
+--------------------------------------------------------------------------------
+*/
+/* Slider - used for Volume bar and Seek bar */
+.vjs-default-skin .vjs-slider {
+  /* Replace browser focus highlight with handle highlight */
+  outline: 0;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  /* background-color-with-alpha */
+  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.9);
+}
+.vjs-default-skin .vjs-slider:focus {
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 2em #ffffff;
+  -moz-box-shadow: 0 0 2em #ffffff;
+  box-shadow: 0 0 2em #ffffff;
+}
+.vjs-default-skin .vjs-slider-handle {
+  position: absolute;
+  /* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+.vjs-default-skin .vjs-slider-handle:before {
+  content: "\e009";
+  font-family: VideoJS;
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0em 0em 1em #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Rotate the square icon to make a diamond */
+  /* transform */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* Control Bar
+--------------------------------------------------------------------------------
+The default control bar that is a container for most of the controls.
+*/
+.vjs-default-skin .vjs-control-bar {
+  /* Start hidden */
+  display: none;
+  position: absolute;
+  /* Place control bar at the bottom of the player box/video.
+     If you want more margin below the control bar, add more height. */
+  bottom: 0;
+  /* Use left/right to stretch to 100% width of player div */
+  left: 0;
+  right: 0;
+  /* Height includes any margin you want above or below control items */
+  height: 3.0em;
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.7);
+}
+/* Show the control bar only once the video has started playing */
+.vjs-default-skin.vjs-has-started .vjs-control-bar {
+  display: block;
+  /* Visibility needed to make sure things hide in older browsers too. */
+
+  visibility: visible;
+  opacity: 1;
+  /* transition */
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+/* Hide the control bar when the video is playing and the user is inactive  */
+.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  /* transition */
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s;
+}
+.vjs-default-skin.vjs-controls-disabled .vjs-control-bar {
+  display: none;
+}
+.vjs-default-skin.vjs-using-native-controls .vjs-control-bar {
+  display: none;
+}
+/* The control bar shouldn't show after an error */
+.vjs-default-skin.vjs-error .vjs-control-bar {
+  display: none;
+}
+/* Don't hide the control bar if it's audio */
+.vjs-audio.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  opacity: 1;
+  visibility: visible;
+}
+/* IE8 is flakey with fonts, and you have to change the actual content to force
+fonts to show/hide properly.
+  - "\9" IE8 hack didn't work for this
+  - Found in XP IE8 from http://modern.ie. Does not show up in "IE8 mode" in IE9
+*/
+@media \0screen {
+  .vjs-default-skin.vjs-user-inactive.vjs-playing .vjs-control-bar :before {
+    content: "";
+  }
+}
+/* General styles for individual controls. */
+.vjs-default-skin .vjs-control {
+  outline: none;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 3.0em;
+  width: 4em;
+}
+/* Font button icons */
+.vjs-default-skin .vjs-control:before {
+  font-family: VideoJS;
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* Replacement for focus outline */
+.vjs-default-skin .vjs-control:focus:before,
+.vjs-default-skin .vjs-control:hover:before {
+  text-shadow: 0em 0em 1em #ffffff;
+}
+.vjs-default-skin .vjs-control:focus {
+  /*  outline: 0; */
+  /* keyboard-only users cannot see the focus on several of the UI elements when
+  this is set to 0 */
+
+}
+/* Hide control text visually, but have it available for screenreaders */
+.vjs-default-skin .vjs-control-text {
+  /* hide-visually */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* Play/Pause
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin .vjs-play-control {
+  width: 5em;
+  cursor: pointer;
+}
+.vjs-default-skin .vjs-play-control:before {
+  content: "\e001";
+}
+.vjs-default-skin.vjs-playing .vjs-play-control:before {
+  content: "\e002";
+}
+/* Playback toggle
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin .vjs-playback-rate .vjs-playback-rate-value {
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.vjs-default-skin .vjs-playback-rate.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 4em;
+  left: -2em;
+  list-style: none;
+}
+/* Volume/Mute
+-------------------------------------------------------------------------------- */
+.vjs-default-skin .vjs-mute-control,
+.vjs-default-skin .vjs-volume-menu-button {
+  cursor: pointer;
+  float: right;
+}
+.vjs-default-skin .vjs-mute-control:before,
+.vjs-default-skin .vjs-volume-menu-button:before {
+  content: "\e006";
+}
+.vjs-default-skin .vjs-mute-control.vjs-vol-0:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-0:before {
+  content: "\e003";
+}
+.vjs-default-skin .vjs-mute-control.vjs-vol-1:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-1:before {
+  content: "\e004";
+}
+.vjs-default-skin .vjs-mute-control.vjs-vol-2:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-2:before {
+  content: "\e005";
+}
+.vjs-default-skin .vjs-volume-control {
+  width: 5em;
+  float: right;
+}
+.vjs-default-skin .vjs-volume-bar {
+  width: 5em;
+  height: 0.6em;
+  margin: 1.1em auto 0;
+}
+.vjs-default-skin .vjs-volume-level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.5em;
+  /* assuming volume starts at 1.0 */
+
+  width: 100%;
+  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+.vjs-default-skin .vjs-volume-bar .vjs-volume-handle {
+  width: 0.5em;
+  height: 0.5em;
+  /* Assumes volume starts at 1.0. If you change the size of the
+     handle relative to the volume bar, you'll need to update this value
+     too. */
+
+  left: 4.5em;
+}
+.vjs-default-skin .vjs-volume-handle:before {
+  font-size: 0.9em;
+  top: -0.2em;
+  left: -0.2em;
+  width: 1em;
+  height: 1em;
+}
+/* The volume menu button is like menu buttons (captions/subtitles) but works
+    a little differently. It needs to be possible to tab to the volume slider
+    without hitting space bar on the menu button. To do this we're not using
+    display:none to hide the slider menu by default, and instead setting the
+    width and height to zero. */
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top-color: transparent;
+}
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu .vjs-menu-content {
+  height: 0;
+  width: 0;
+}
+.vjs-default-skin .vjs-volume-menu-button:hover .vjs-menu,
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu.vjs-lock-showing {
+  border-top-color: rgba(7, 40, 50, 0.5);
+  /* Same as ul background */
+
+}
+.vjs-default-skin .vjs-volume-menu-button:hover .vjs-menu .vjs-menu-content,
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu.vjs-lock-showing .vjs-menu-content {
+  height: 2.9em;
+  width: 10em;
+}
+/* Progress
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin .vjs-progress-control {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  font-size: 0.3em;
+  height: 1em;
+  /* Set above the rest of the controls. */
+  top: -1em;
+  /* Shrink the bar slower than it grows. */
+  /* transition */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* On hover, make the progress bar grow to something that's more clickable.
+    This simply changes the overall font for the progress bar, and this
+    updates both the em-based widths and heights, as wells as the icon font */
+.vjs-default-skin:hover .vjs-progress-control {
+  font-size: .9em;
+  /* Even though we're not changing the top/height, we need to include them in
+      the transition so they're handled correctly. */
+
+  /* transition */
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* Box containing play and load progresses. Also acts as seek scrubber. */
+.vjs-default-skin .vjs-progress-holder {
+  height: 100%;
+}
+/* Progress Bars */
+.vjs-default-skin .vjs-progress-holder .vjs-play-progress,
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress,
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress div {
+  position: absolute;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* updated by javascript during playback */
+
+  width: 0;
+  /* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+.vjs-default-skin .vjs-play-progress {
+  /*
+    Using a data URI to create the white diagonal lines with a transparent
+      background. Surprisingly works in IE8.
+      Created using http://www.patternify.com
+    Changing the first color value will change the bar color.
+    Also using a paralax effect to make the lines move backwards.
+      The -50% left position makes that happen.
+  */
+
+  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+.vjs-default-skin .vjs-load-progress {
+  background: #646464 /* IE8- Fallback */;
+  background: rgba(255, 255, 255, 0.2);
+}
+/* there are child elements of the load progress bar that represent the
+   specific time ranges that have been buffered */
+.vjs-default-skin .vjs-load-progress div {
+  background: #787878 /* IE8- Fallback */;
+  background: rgba(255, 255, 255, 0.1);
+}
+.vjs-default-skin .vjs-seek-handle {
+  width: 1.5em;
+  height: 100%;
+}
+.vjs-default-skin .vjs-seek-handle:before {
+  padding-top: 0.1em /* Minor adjustment */;
+}
+/* Live Mode
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin.vjs-live .vjs-time-controls,
+.vjs-default-skin.vjs-live .vjs-time-divider,
+.vjs-default-skin.vjs-live .vjs-progress-control {
+  display: none;
+}
+.vjs-default-skin.vjs-live .vjs-live-display {
+  display: block;
+}
+/* Live Display
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin .vjs-live-display {
+  display: none;
+  font-size: 1em;
+  line-height: 3em;
+}
+/* Time Display
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin .vjs-time-controls {
+  font-size: 1em;
+  /* Align vertically by making the line height the same as the control bar */
+  line-height: 3em;
+}
+.vjs-default-skin .vjs-current-time {
+  float: left;
+}
+.vjs-default-skin .vjs-duration {
+  float: left;
+}
+/* Remaining time is in the HTML, but not included in default design */
+.vjs-default-skin .vjs-remaining-time {
+  display: none;
+  float: left;
+}
+.vjs-time-divider {
+  float: left;
+  line-height: 3em;
+}
+/* Fullscreen
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin .vjs-fullscreen-control {
+  width: 3.8em;
+  cursor: pointer;
+  float: right;
+}
+.vjs-default-skin .vjs-fullscreen-control:before {
+  content: "\e000";
+}
+/* Switch to the exit icon when the player is in fullscreen */
+.vjs-default-skin.vjs-fullscreen .vjs-fullscreen-control:before {
+  content: "\e00b";
+}
+/* Big Play Button (play button at start)
+--------------------------------------------------------------------------------
+Positioning of the play button in the center or other corners can be done more
+easily in the skin designer. http://designer.videojs.com/
+*/
+.vjs-default-skin .vjs-big-play-button {
+  left: 0.5em;
+  top: 0.5em;
+  font-size: 3em;
+  display: block;
+  z-index: 2;
+  position: absolute;
+  width: 4em;
+  height: 2.6em;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  opacity: 1;
+  /* Need a slightly gray bg so it can be seen on black backgrounds */
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.7);
+  border: 0.1em solid #3b4249;
+  /* border-radius */
+  -webkit-border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  border-radius: 0.8em;
+  /* box-shadow */
+  -webkit-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  /* transition */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* Optionally center */
+.vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
+  /* Center it horizontally */
+  left: 50%;
+  margin-left: -2.1em;
+  /* Center it vertically */
+  top: 50%;
+  margin-top: -1.4000000000000001em;
+}
+/* Hide if controls are disabled */
+.vjs-default-skin.vjs-controls-disabled .vjs-big-play-button {
+  display: none;
+}
+/* Hide when video starts playing */
+.vjs-default-skin.vjs-has-started .vjs-big-play-button {
+  display: none;
+}
+/* Hide on mobile devices. Remove when we stop using native controls
+    by default on mobile  */
+.vjs-default-skin.vjs-using-native-controls .vjs-big-play-button {
+  display: none;
+}
+.vjs-default-skin:hover .vjs-big-play-button,
+.vjs-default-skin .vjs-big-play-button:focus {
+  outline: 0;
+  border-color: #fff;
+  /* IE8 needs a non-glow hover state */
+  background-color: #505050;
+  background-color: rgba(50, 50, 50, 0.75);
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 3em #ffffff;
+  -moz-box-shadow: 0 0 3em #ffffff;
+  box-shadow: 0 0 3em #ffffff;
+  /* transition */
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+}
+.vjs-default-skin .vjs-big-play-button:before {
+  content: "\e001";
+  font-family: VideoJS;
+  /* In order to center the play icon vertically we need to set the line height
+     to the same as the button height */
+
+  line-height: 2.6em;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center /* Needed for IE8 */;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.vjs-error .vjs-big-play-button {
+  display: none;
+}
+/* Error Display
+--------------------------------------------------------------------------------
+*/
+.vjs-error-display {
+  display: none;
+}
+.vjs-error .vjs-error-display {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.vjs-error .vjs-error-display:before {
+  content: 'X';
+  font-family: Arial;
+  font-size: 4em;
+  color: #666666;
+  /* In order to center the play icon vertically we need to set the line height
+     to the same as the button height */
+
+  line-height: 1;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center /* Needed for IE8 */;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.5em;
+  width: 100%;
+}
+.vjs-error-display div {
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+  left: 0;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 3px;
+  background: #000000;
+  background: rgba(0, 0, 0, 0.5);
+}
+.vjs-error-display a,
+.vjs-error-display a:visited {
+  color: #F4A460;
+}
+/* Loading Spinner
+--------------------------------------------------------------------------------
+*/
+.vjs-loading-spinner {
+  /* Should be hidden by default */
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 4em;
+  line-height: 1;
+  width: 1em;
+  height: 1em;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  opacity: 0.75;
+}
+/* Show the spinner when waiting for data and seeking to a new time */
+.vjs-waiting .vjs-loading-spinner,
+.vjs-seeking .vjs-loading-spinner {
+  display: block;
+  /* only animate when showing because it can be processor heavy */
+  /* animation */
+  -webkit-animation: spin 1.5s infinite linear;
+  -moz-animation: spin 1.5s infinite linear;
+  -o-animation: spin 1.5s infinite linear;
+  animation: spin 1.5s infinite linear;
+}
+/* Errors are unrecoverable without user interaction so hide the spinner */
+.vjs-error .vjs-loading-spinner {
+  display: none;
+  /* ensure animation doesn't continue while hidden */
+  /* animation */
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+.vjs-default-skin .vjs-loading-spinner:before {
+  content: "\e01e";
+  font-family: VideoJS;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  text-shadow: 0em 0em 0.1em #000;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+/* Menu Buttons (Captions/Subtitles/etc.)
+--------------------------------------------------------------------------------
+*/
+.vjs-default-skin .vjs-menu-button {
+  float: right;
+  cursor: pointer;
+}
+.vjs-default-skin .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0em;
+  /* (Width of vjs-menu - width of button) / 2 */
+
+  width: 0em;
+  height: 0em;
+  margin-bottom: 3em;
+  border-left: 2em solid transparent;
+  border-right: 2em solid transparent;
+  border-top: 1.55em solid #000000;
+  /* Same width top as ul bottom */
+
+  border-top-color: rgba(7, 40, 50, 0.5);
+  /* Same as ul background */
+
+}
+/* Button Pop-up Menu */
+.vjs-default-skin .vjs-menu-button .vjs-menu .vjs-menu-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 10em;
+  bottom: 1.5em;
+  /* Same bottom as vjs-menu border-top */
+
+  max-height: 15em;
+  overflow: auto;
+  left: -5em;
+  /* Width of menu - width of button / 2 */
+
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.7);
+  /* box-shadow */
+  -webkit-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+}
+.vjs-default-skin .vjs-menu-button:hover .vjs-control-content .vjs-menu,
+.vjs-default-skin .vjs-control-content .vjs-menu.vjs-lock-showing {
+  display: block;
+}
+/* prevent menus from opening while scrubbing (FF, IE) */
+.vjs-default-skin.vjs-scrubbing .vjs-menu-button:hover .vjs-control-content .vjs-menu {
+  display: none;
+}
+.vjs-default-skin .vjs-menu-button ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0.3em 0 0.3em 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: lowercase;
+}
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected {
+  background-color: #000;
+}
+.vjs-default-skin .vjs-menu-button ul li:focus,
+.vjs-default-skin .vjs-menu-button ul li:hover,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:hover {
+  outline: 0;
+  color: #111;
+  /* background-color-with-alpha */
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.75);
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 1em #ffffff;
+  -moz-box-shadow: 0 0 1em #ffffff;
+  box-shadow: 0 0 1em #ffffff;
+}
+.vjs-default-skin .vjs-menu-button ul li.vjs-menu-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0 0 0.3em 0;
+  font-weight: bold;
+  cursor: default;
+}
+/* Subtitles Button */
+.vjs-default-skin .vjs-subtitles-button:before {
+  content: "\e00c";
+}
+/* Captions Button */
+.vjs-default-skin .vjs-captions-button:before {
+  content: "\e008";
+}
+/* Chapters Button */
+.vjs-default-skin .vjs-chapters-button:before {
+  content: "\e00c";
+}
+.vjs-default-skin .vjs-chapters-button.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 24em;
+  left: -12em;
+}
+/* Replacement for focus outline */
+.vjs-default-skin .vjs-captions-button:focus .vjs-control-content:before,
+.vjs-default-skin .vjs-captions-button:hover .vjs-control-content:before {
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 1em #ffffff;
+  -moz-box-shadow: 0 0 1em #ffffff;
+  box-shadow: 0 0 1em #ffffff;
+}
+/*
+REQUIRED STYLES (be careful overriding)
+================================================================================
+When loading the player, the video tag is replaced with a DIV,
+that will hold the video tag or object tag for other playback methods.
+The div contains the video playback element (Flash or HTML5) and controls,
+and sets the width and height of the video.
+
+** If you want to add some kind of border/padding (e.g. a frame), or special
+positioning, use another containing element. Otherwise you risk messing up
+control positioning and full window mode. **
+*/
+.video-js {
+  background-color: #252f3a;
+  position: relative;
+  padding: 0;
+  /* Start with 10px for base font size so other dimensions can be em based and
+     easily calculable. */
+
+  font-size: 10px;
+  /* Allow poster to be vertically aligned. */
+
+  vertical-align: middle;
+  /*  display: table-cell; */
+  /*This works in Safari but not Firefox.*/
+
+  /* Provide some basic defaults for fonts */
+
+  font-weight: normal;
+  font-style: normal;
+  /* Avoiding helvetica: issue #376 */
+
+  font-family: Arial, sans-serif;
+  /* Turn off user selection (text highlighting) by default.
+     The majority of player components will not be text blocks.
+     Text areas will need to turn user selection back on. */
+
+  /* user-select */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Playback technology elements expand to the width/height of the containing div
+    <video> or <object> */
+.video-js .vjs-tech {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Fix for Firefox 9 fullscreen (only if it is enabled). Not needed when
+   checking fullScreenEnabled. */
+.video-js:-moz-full-screen {
+  position: absolute;
+}
+/* Fullscreen Styles */
+body.vjs-full-window {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* Fix for IE6 full-window. http://www.cssplay.co.uk/layouts/fixed.html */
+  overflow-y: auto;
+}
+.video-js.vjs-fullscreen {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+  /* IE6 full-window (underscore hack) */
+  _position: absolute;
+}
+.video-js:-webkit-full-screen {
+  width: 100% !important;
+  height: 100% !important;
+}
+.video-js.vjs-fullscreen.vjs-user-inactive {
+  cursor: none;
+}
+/* Poster Styles */
+.vjs-poster {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vjs-poster img {
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  padding: 0;
+  width: 100%;
+}
+/* Hide the poster after the video has started playing */
+.video-js.vjs-has-started .vjs-poster {
+  display: none;
+}
+/* Don't hide the poster if we're playing audio */
+.video-js.vjs-audio.vjs-has-started .vjs-poster {
+  display: block;
+}
+/* Hide the poster when controls are disabled because it's clickable
+    and the native poster can take over */
+.video-js.vjs-controls-disabled .vjs-poster {
+  display: none;
+}
+/* Hide the poster when native controls are used otherwise it covers them */
+.video-js.vjs-using-native-controls .vjs-poster {
+  display: none;
+}
+/* Text Track Styles */
+/* Overall track holder for both captions and subtitles */
+.video-js .vjs-text-track-display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 3em;
+  right: 0;
+  pointer-events: none;
+}
+/* Captions Settings Dialog */
+.vjs-caption-settings {
+  position: relative;
+  top: 1em;
+  background-color: #000;
+  opacity: 0.75;
+  color: #FFF;
+  margin: 0 auto;
+  padding: 0.5em;
+  height: 15em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 40em;
+}
+.vjs-caption-settings .vjs-tracksettings {
+  top: 0;
+  bottom: 2em;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: auto;
+}
+.vjs-caption-settings .vjs-tracksettings-colors,
+.vjs-caption-settings .vjs-tracksettings-font {
+  float: left;
+}
+.vjs-caption-settings .vjs-tracksettings-colors:after,
+.vjs-caption-settings .vjs-tracksettings-font:after,
+.vjs-caption-settings .vjs-tracksettings-controls:after {
+  clear: both;
+}
+.vjs-caption-settings .vjs-tracksettings-controls {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+.vjs-caption-settings .vjs-tracksetting {
+  margin: 5px;
+  padding: 3px;
+  min-height: 40px;
+}
+.vjs-caption-settings .vjs-tracksetting label {
+  display: block;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.vjs-caption-settings .vjs-tracksetting span {
+  display: inline;
+  margin-left: 5px;
+}
+.vjs-caption-settings .vjs-tracksetting > div {
+  margin-bottom: 5px;
+  min-height: 20px;
+}
+.vjs-caption-settings .vjs-tracksetting > div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  min-height: 0;
+}
+.vjs-caption-settings label > input {
+  margin-right: 10px;
+}
+.vjs-caption-settings input[type="button"] {
+  width: 40px;
+  height: 40px;
+}
+/* Hide disabled or unsupported controls */
+.vjs-hidden {
+  display: none !important;
+}
+.vjs-lock-showing {
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+}
+/*  In IE8 w/ no JavaScript (no HTML5 shim), the video tag doesn't register.
+    The .video-js classname on the video tag also isn't considered.
+    This optional paragraph inside the video tag can provide a message to users
+    about what's required to play video. */
+.vjs-no-js {
+  padding: 2em;
+  color: #ccc;
+  background-color: #333;
+  font-size: 1.8em;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 30em;
+  height: 15em;
+  margin: 0 auto;
+}
+.vjs-no-js a,
+.vjs-no-js a:visited {
+  color: #F4A460;
+}
+/* -----------------------------------------------------------------------------
+The original source of this file lives at
+https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Aug, 2015, 6:52:00 PM
+    Author     : linjith
+*/
+
+
+
+/************************* Notification CSS STARTS LNP 12-08-2015*************************/
+
+
+.notificationdropdown li ul.notify {
+    border-radius: 5px;
+    left: auto;
+    max-height: 400px;
+    min-height: 38px;
+    width: 400px;
+  
+}
+
+li.notifydrop a{
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.notifications-viewall {
+    font-size: 14px;
+    left: 89px;
+    padding: 25px !important;
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+}
+
+.notificationdropdown > li > ul > a{padding: 0 !important;} 
+
+.notificationdropdown li ul a li {
+    padding: 10px 20px 10px 10px;
+}
+
+.notificationdropdown li ul a li span{
+    color: #333333;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+    outline:0;
+}
+
+.notificationdropdown li ul a li small{
+    color: #999999;
+    font-size: 10px !important;
+}
+
+.notificationdropdown li ul a li:hover{
+    background: #f1f1f1;
+}
+
+.notificationdropdown li ul.notify::before {
+    border-color: transparent transparent #ffffff;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 7px;
+    top: -10px;
+    width: 0;
+    z-index: 1;
+}
+
+.notificationcount {
+    background: #ae353c none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    left: 9px;
+    padding: 1px 3px;
+    position: relative;
+    top: -11px;
+    display:none;
+}
+.notificationcount-blank {
+    border-radius: 10px;
+    font-size: 1px;
+    font-weight: bold;
+    left: 9px;
+    padding: 2px 6px;
+    position: relative;
+    top: -11px;
+    display: none;
+}
+
+.mobilenotification {
+    z-index: 9 !important;
+}
+
+.markviewall {
+    background: #ffffff none repeat scroll 0 0;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 10px !important;
+    border-bottom: 1px solid #ddd;
+    width: 395px;
+    z-index: 9;
+}
+
+.markallpanel {
+    left: 52px !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    position: relative;
+}
+
+.notification-element{border-bottom: 1px solid #c9c9c9;
+                     background: #e0e0e0;
+}
+.notification-element.viewed{
+    background: #ffffff;
+}
+.showmorecs {
+    color: #333;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 15px;
+}
+.navcustomecss {
+    float: right;
+}
+
+@media only screen and (min-width:768px) {
+    .notificationdropdown-m
+    {
+        display: none;
+
+    }
+    .notificationdropdown li ul.notify::before {
+        right: 275px;
+    }
+    .navbar-nav .open .notify-menu {
+        background: #ffffff none repeat scroll 0 0;
+        position: absolute;
+        right: -265px;
+
+
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 991px)  {
+    .mobilenotification {    }
+    .welcomenameuser {
+        max-width: 70px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 767px)  {
+    .welcomenameuser {
+        padding-left: 5px;
+    }
+    .navbar-nav .open .dropdown-menu {
+    padding-left: 5px;}
+    .navbar-homepage .navbar-nav li a{
+        padding-left: 9px;
+    }
+    .notificationdropdown li ul a{padding: 0 !important;}
+    .navcustomecss{
+        float: none;
+    }
+    .mobilenotification {
+        position: absolute;
+        right: 132px;
+        top: 0;
+    }
+    .markallpanel {
+        font-size: 11px;
+        font-weight: bold;
+        left: 12px !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+        position: relative;
+    }
+    .notificationdropdown li ul.notify::before {
+        right: 110px;
+    }
+
+    .navbar-nav .open .notify-menu {
+        background: #ffffff none repeat scroll 0 0;
+        position: absolute;
+        right: -99px;
+        top: 43px;
+        width: 300px;
+    }
+    .notificationdropdown li ul.notify {
+        box-shadow: 1px 1px 10px #000000 !important;
+    }
+}
+/******************* Notification CSS ENDS ***************************/
+
+
+
+* {
+	outline:none !important;
+}
+html, body {
+	overflow:auto;
+	height:auto;
+}
+.modal-open {
+	overflow: hidden !important;
+}
+.offerBanner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+  	min-height: 36px;
+}
+#header-II.withoffer nav {
+	top: 36px;
+}
+
+#header-II .menu-dropdown {
+	padding-top:inherit;
+}
+#header-II .navbar-inverse .navbar-nav > li > a,
+#header-II .menu-dropdown a {
+    color: #959595 !important;
+	text-transform:uppercase;
+	font-size:13px;
+	line-height: 18px;
+	font-weight:600;
+	padding: 10px 15px !important;
+	display:block;
+	/*min-height: 40px;*/
+}
+#header-II .navbar-inverse .navbar-nav > li > a:hover, #header-II .menu-dropdown a:hover,
+#header-II .navbar-inverse .navbar-nav > li > a:focus, #header-II .menu-dropdown a:focus {
+	color: #3778b0 !important;
+}
+#header-II .notificationdropdown > .notifydrop > a {
+    height: 40px;
+    width: 44px;
+}
+#header-II .menu-dropdown a i.fa {
+    font-size: 16px;
+}
+#header-II ul.nav.navbar-nav.hidden-sm > li:last-child i.fa {
+    padding-left: 5px;
+}
+#header-II .menu-dropdown > ul > li > a,
+#header-II .profile > li > ul > li > a {
+    padding: 5px 15px !important;
+    border-bottom: #e0e0e0 1px solid !important;
+	text-transform: capitalize;
+}
+#header-II .profile > li.profile-pic-header{
+	margin: -8px 15px 0 15px;
+}
+#header-II .profile > li > ul > li > a {
+    padding: 5px 15px !important;
+	font-size: 13px;
+    font-weight: 600;
+	line-height:normal;
+}
+#header-II .menu-dropdown > ul > li:last-child > a,
+#header-II .profile > li > ul > li:last-child > a {
+    border-bottom: none !important;
+}
+
+#header-II .profile li a.dropdown-toggle {
+    padding: 3px 0 3px 15px !important;
+}
+#header-II .profile li a.dropdown-toggle > span {
+    padding-right: 6px;
+}
+/*#header-II .notificationdropdown li a.dropdown-toggle {
+    padding: 10px 15px !important;
+}*/
+
+#header-II .course-search-box-nav {
+	float: left !important;
+    padding: 5px 10px;
+    position: relative;
+	width:45%;
+	max-width:506px;
+	display:inline-block;
+}
+#header-II .search_inp {
+	border-color:#d3d3d3;
+	background: #fff;
+	height:30px;
+	width:100%;
+	display:block;
+	font-weight: 400;
+	font-size: 13px;
+	color: #656565 !important;
+	line-height: 16px;
+	padding: 6px 0 5px 59px !important;
+}
+#header-II .typeahead-field {
+	position: relative;
+}
+#header-II .ripple-wrapper {
+	display: none;
+}
+#header-II .search_ico {
+	color:#3778b0;
+	margin: 0;
+    right: 10px;
+    top: 8px;
+	font-size: 13px;
+	position: absolute;
+	cursor: pointer;
+}
+.search-nav > .dropdown > a.search-drop > i.fa.fa-bars{color: #3778b0 !important;}
+#header-II .select_down {
+	background:none;
+	border-right: 1px solid #d3d3d3;
+    padding: 0 16px;
+    height: 30px;
+    line-height: 24px;
+    z-index: 1042;
+}
+#header-II .select_down .fa {
+	color:#bcbcbc;
+	font-size: 14px;
+}
+#header-II .search-nav {
+	height:auto;
+	width:100%;
+}
+#header-II .search_inp::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #bcbcbc !important;
+}
+#header-II .search_inp:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #bcbcbc !important;
+   opacity: 1;
+}
+#header-II .search_inp::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #bcbcbc !important;
+   opacity: 1;
+}
+#header-II .search_inp:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #bcbcbc !important;
+}
+
+#header-II .navbar-right .dropdown-menu {
+	padding:2px 0;
+}
+#header-II .notificationdropdown li ul {
+	right: -23px;
+	top: 41px;
+}
+#header-II .navbar-right .dropdown-menu, #header-II .navbar-right .dropdown-menu li:first-child {
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#header-II .navbar-right .dropdown-menu li:last-child {
+	border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: none;
+}
+#header-II .navbar-right .dropdown-menu li {
+	overflow:hidden;
+}
+#header-II .navbar-right .dropdown-menu .mCustomScrollBox {
+	border-radius:5px;
+}
+#header-II .notificationcount {
+    background: #d93b3b;
+    padding: 0px 5px;
+    top: -5px;
+    left: 5px;
+    font-size: 11px;
+    height: 14px;
+    line-height: 14px;
+    width: 24px;
+    text-align: center;
+}
+
+.dropdown-toggle {
+	cursor:pointer;
+}
+#header-II .notificationdropdown li ul.notify::before,
+#header-II .notificationdropdown li ul.notify::after,
+#header-II .search-nav .dropdown-menu::before,
+#header-II .search-nav .dropdown-menu::after,
+#header-II .navbar-right .dropdown-menu::before,
+#header-II .navbar-right .dropdown-menu::after {
+    border-color: transparent transparent #666;
+    border-style: solid;
+    border-width: 0 6px 6px;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 38px;
+    top: -6px;
+    width: 0;
+    z-index: 1;
+}
+#header-II .notificationdropdown li ul.notify::before,
+#header-II .search-nav .dropdown-menu::before,
+#header-II .navbar-right .dropdown-menu::before {
+    z-index: 2;
+    border-color: transparent transparent #fff;
+}
+#header-II .search-nav .dropdown-menu::before,
+#header-II .search-nav .dropdown-menu::after {
+    border-color: transparent transparent #3778b0;
+    border-width: 0 7px 7px;
+    right: auto;
+	left:15px;
+	top:-7px;
+}
+#header-II .navbar-right .dropdown-menu::before,
+#header-II .navbar-right .dropdown-menu::after {
+    right: 15px;
+}
+#header-II .profile .profile-xs {
+    top: 41px;
+}
+#header-II .profile ul.dropdown-menu::after, #header-II .profile ul.dropdown-menu::before {
+    right: 10px;
+}
+
+#header-II .search-nav .dropdown-menu {
+	min-width:inherit;
+	width:200px;
+	background-color:#3778b0 !important;
+	border-radius:0;
+	margin-top:42px !important;
+	border:none;
+}
+#header-II .search-nav .dropdown-menu * {
+    line-height: normal;
+}
+#header-II .course-search-box-nav .dropdown-menu.list-inline > li {
+    width: 100%;
+	padding: 0 0 0 10px;
+}
+#header-II .course-search-box-nav .dropdown-menu.list-inline > li:last-child {
+    padding: 0 10px;
+}
+
+/*#header-II .search-nav .dropdown-menu > li.active:after,
+#header-II .course-search-box-nav .dropdown-menu.list-inline > li:hover::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    right: -7px;
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #3778b0;
+    margin-top: -20px;
+}*/
+#header-II .search-nav .dropdown-menu > li.active > a::after, #header-II .course-search-box-nav .dropdown-menu.list-inline > li > a:hover::after {
+  align-items: center;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #3778b0;
+  border-top: 7px solid transparent;
+  content: " ";
+  display: flex;
+  float: right;
+  min-height: 0;
+  position: absolute;
+  right: -7px;
+  top: 30%;
+  width: 0;
+  z-index: 1;
+}
+#header-II .course-search-box-nav .dropdown-menu.list-inline > li:last-child:hover::after,
+#header-II .search-nav .dropdown-menu > li:last-child::after {
+	display: none !important;
+}
+#header-II .search-nav .dropdown-menu > li > a {
+    color: #d9e2ed !important;
+    font-size: 13px;
+	padding: 4px 15px;
+	position:relative;
+	white-space:inherit;
+	 word-wrap: break-word;
+}
+#header-II .search-nav .dropdown-menu > li.active > a,
+#header-II .search-nav .dropdown-menu > li:hover > a,
+#header-II .navbar-homepage .dropdown-menu > li > a:hover,
+#header-II .search-nav .dropdown-menu > li > a:hover,
+#header-II .search-nav .dropdown-menu > li > a:focus {
+	background-color: #fff !important;
+    color: #3778b0 !important;
+}
+#header-II .navbar-homepage .dropdown-menu > li > a:focus {
+	color: #3778b0 !important;
+}
+#header-II ul.dropdown-menu {
+	-webkit-box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.2) !important;
+    min-width: 150px;
+    border-color: #ddd;
+}
+/*Search second level menu*/
+#header-II .search-nav .dropdown-menu,
+#header-II .dropdown-menu > li > ul.level-2 {
+    height: 430px;
+	-webkit-box-shadow: -1px 1px 5px 0 rgba(0,0,0,.25);
+	box-shadow: -1px 1px 5px 0 rgba(0,0,0,.25);
+}
+#header-II .dropdown-menu > li:hover ul.level-2 {
+	display:block;
+}
+#header-II .search-nav .dropdown-menu > li.active ul.level-2{
+	display:block;
+	list-style: none;
+	padding: 0 !important;
+}
+#header-II .dropdown-menu > li > ul.level-2 {
+	height: 100%;
+	display:none;
+	position:absolute;
+	left: 200px;
+	top:0;
+	background-color: #fff;
+	width: 285px;
+	padding-top:4px;
+	-webkit-box-shadow: 1px 1px 5px 0 rgba(0,0,0,.25);
+	box-shadow: 1px 1px 5px 0 rgba(0,0,0,.25);
+}
+
+#header-II .dropdown-menu > li > ul.level-2 li > li {
+    width: 100%;
+	padding: 0 10px;
+}
+#header-II .dropdown-menu > li > ul.level-2 li.view-all {
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	padding: 15px;
+}
+#header-II .dropdown-menu > li > ul.level-2 li.view-all button {
+	color:rgba(255,255,255,0.80);
+	font-size:16px;
+	width:100%;
+	text-align:center;
+	background-color: #3778b0;
+	border-radius:1px;
+	line-height:36px;
+	border:#306a9b 1px solid;
+}
+#header-II .dropdown-menu > li > ul.level-2 li > a {
+    color: #000000 !important;
+    font-size: 13px;
+	padding: 5px 15px;
+	font-weight:500;
+	display: block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#header-II .dropdown-menu > li > ul.level-2 li > a:hover,
+#header-II .dropdown-menu > li > ul.level-2 li > a:focus {
+    color: #3778b0 !important;
+}
+
+#header-II .signin {
+	border-radius:0;
+	border: #3778b0 2px solid;
+	padding:2px 11px;
+	float:right;
+	line-height: normal;
+    margin: 7px 0 0 10px;
+	text-transform: uppercase;
+	color: #3778b0;
+	font-weight:600;
+	font-size: 13px;
+}
+#header-II a:hover, #header-II a:focus {
+	text-decoration:none !important;
+	background: none !important;
+}
+#header-II .signin:hover, #header-II .signin:focus {
+	background: #3778b0 !important;
+	color: #fff;
+}
+/*Search second level menu ends*/
+
+#header-II .nav .open > a,
+#header-II .nav .open > a:hover,
+#header-II .nav .open > a:focus {
+    background: none !important;
+}
+#header-II .img30 {
+    width: 34px;
+    height: 34px;
+}
+#header-II .typeahead-result {
+	width: 100%;
+}
+
+.search-for-course .homesearch > .typeahead-field > .typeahead-button > i.fa-search {
+    top: 7px !important;
+}
+.homesearch > .typeahead-field > .typeahead-button > i.fa-circle-o-notch {
+    right: 18px;
+    top: 4px !important;
+}
+
+/*copied from dashbord.css for notification*/
+#header-II .nav > li > a {
+    padding: 10px 15px !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    line-height: 2;
+	outline: 0 none;
+}
+.navbar-brand {
+    line-height: 1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #000000;
+  color: #ffffff !important;
+  cursor:pointer;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #000000 !important;
+  color:#ffffff !important;
+}
+.notificationdropdown li ul.notify {
+  border-radius: 5px;
+  left: auto;
+  max-height: 400px;
+  min-height: 38px;
+  width: 400px;
+}
+.notificationdropdown li ul.notify li {
+  border-bottom: 1px solid #ddd;
+  color: #333333;
+  line-height: 15px;
+  outline: 0 none;
+  padding: 10px;
+  text-decoration: none;
+}
+.notificationdropdown li ul.notify li:first-child {
+  font-size: 14px;
+  font-weight: 600;
+}
+.notificationdropdown li ul.notify li:first-child:hover{
+	background:transparent;
+}
+.notificationdropdown li ul.notify li a {
+  color: #333333;
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: none;
+  outline:0;
+}
+.notificationdropdown li ul.notify li a small {
+  color: #999999;
+  font-size: 10px !important;
+}
+.notificationdropdown li ul.notify li:hover{
+	background:#f1f1f1;
+}
+
+.notificationdropdown li ul.notify li.viewed{
+	background:#f8f8f8;
+}
+
+.notificationdropdown li ul.notify::before {
+  border-color: transparent transparent #ffffff;
+  border-style: solid;
+  border-width: 0 10px 10px;
+  content: " ";
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 7px;
+  top: -10px;
+  width: 0;
+  z-index: 1;
+}
+
+.notificationcount {
+  background: #ae353c none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  left: 9px;
+  padding: 1px 3px;
+  position: relative;
+  top: -11px;
+}
+/*copied from dashbord.css for notification - end*/
+
+@media all and (min-width:767px)  {
+
+}
+@media all and (max-width: 1199px) {
+	#header-II .course-search-box-nav {
+		width:35%;
+	}
+}
+@media all and (max-width: 991px) {
+	#header-II .container {
+		position:relative;
+	}
+	#header-II .navbar-header {
+		float: none;
+		left: 0;
+		margin: 0 auto;
+		position: absolute;
+		right: 0;
+		width: 100px;
+	}
+	#header-II .navbar-header .navbar-brand {
+		padding: 7px 0;
+	}
+	#header-II .navbar-header img {
+		max-width:100%;
+		width:100%;
+	}
+
+	#header-II .typeahead-field {
+		width: 100%;
+	}
+	#header-II .course-search-box-nav {
+		margin: 0;
+		padding: 0 !important;
+		max-width: 50px;
+		position: absolute;
+		left: 0;
+	}
+	#header-II .select_down {
+		border: medium none;
+		line-height: 40px;
+		height: 40px;
+	}
+	#header-II .select_down .fa {
+		color: #3778b0;
+		font-size: 22px;
+		line-height: normal;
+	}
+	#header-II .search-icon-nav {
+		float:right;
+		margin:0;
+		padding: 3px 0;
+		background:none;
+	}
+	#header-II ul.dropdown-menu {
+		top: 40px;
+	}
+	#header-II .search-nav .dropdown-menu {
+		margin-left: 15px !important;
+		top: 0 !important;
+	}
+	#header-II .search-nav .dropdown-menu::before, #header-II .search-nav .dropdown-menu::after {
+		left:5px;
+	}
+
+	#header-II .search-nav .dropdown-menu,
+	#header-II .dropdown-menu > li > ul.level-2 {
+	    height: 445px;
+	}
+	#header-II .course-search-box-nav .dropdown-menu.list-inline > li.allcourseslink{
+	    border: 1px solid #fff;
+	    display: block;
+	    margin: 5px auto 0;
+	    max-width: 150px;
+	    padding: 0;
+	    text-align: center;
+	    width: 100%;
+	    margin-bottom: 0;
+	}
+
+	#header-II .dropdown-menu > li > ul.level-2,
+	#header-II .course-search-box-nav .dropdown-menu.list-inline > li:hover::after,
+	#header-II .search-nav .dropdown-menu > li.active:after {
+		display:none !important;
+	}
+	#header-II .course-search-box-nav .dropdown-menu.list-inline > li {
+		padding: 0 10px;
+	}
+
+	#header-II nav, #header-II .search-course {
+		border-bottom: 1px solid #e8e8e8;
+		background: #fff !important;
+	}
+	#header-II .search-course {
+		position:absolute;
+		left:0;
+		width:100%;
+		top:41px;
+		padding:5px 15px;
+		background: #fff;
+		max-height: 41px;
+	}
+	#header-II .search-course > span {
+		display:block;
+		max-width:720px;
+		margin:0 auto;
+		width:100%;
+		position:relative;
+	}
+	#header-II .typeahead-list > li > a {
+	    height: auto;
+	    left: auto;
+	    position: static;
+	    top: auto;
+	    width: 100%;
+	}
+	#header-II .mobsearch a {
+		height: 30px;
+		position: absolute;
+		top: 5px;
+		width: 30px;
+		left: 55px;
+	}
+	#header-II .mobsearch a .search_ico {
+		position: relative;
+		right:auto;
+		top:4px;
+		text-align: right;
+		font-size: 18px !important;
+	}
+	#header-II .search-course .search_inp {
+		padding: 0 15px !important;
+		margin: 0;
+	}
+	#header-II .typeahead-button {
+	    position: absolute;
+	    right: 0 !important;
+	    top: 0;
+	}
+	#header-II .search-course .search_ico {
+		font-size: 14px !important;
+		right:10px;
+		top:8px;
+		cursor:pointer;
+	}
+	#header-II .typeahead-list {
+	    margin: 0;
+	}
+
+	#header-II .profile li a.dropdown-toggle {
+		padding: 5px 0 5px 15px !important;
+	}
+	#header-II .img30 {
+		height: 28px;
+		width: 28px;
+	}
+
+	#header-II .signin {
+		border: none;
+		font-size: 12px;
+		margin: 9px 0;
+		padding-right: 0;
+	}
+	#header-II .signin:hover, #header-II .signin:focus {
+		background:none !important;
+		color: #3778b0;
+	}
+}
+
+/*copied from dashbord.css for notification*/
+@media all and (min-width:320px) and (max-width: 767px)  {
+	.navbar-nav > li {
+	    float: left;
+	}
+	 header {
+         position: relative;
+         z-index: 999;
+       }
+	.navbar-nav .open .dropdown-menu{
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+	}
+	.notificationdropdown li ul.notify::before {
+	  right: 76px;
+	}
+	.navbar-nav .open .notify-menu {
+	  background: #ffffff none repeat scroll 0 0;
+	  position: absolute;
+	  right: -66px;
+	  top: 54px;
+	  width: 300px;
+	}
+	.navbar-nav .open .user-menu {
+	  background: #ffffff none repeat scroll 0 0;
+	  left: -100px;
+	  position: absolute;
+	  top: 54px;
+	}
+	.navbar-nav .open .mydashboard-menu {
+	  background: #ffffff none repeat scroll 0 0;
+	  left: -135px;
+	  position: absolute;
+	  top: 54px;
+	}
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+		background:#333;
+	}
+	.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	background:#333 !important;
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	  background-color: #333 !important;
+	  color: #fff !important;
+	}
+}
+/*copied from dashbord.css for notification - end*/
+
+@media all and (max-width: 767px) {
+	.offerBanner {
+		position: relative;
+		min-height: inherit;
+	}
+	#header-II nav {
+		/*position: fixed !important;*/
+		top: auto;
+	}
+	#header-II.withoffer nav {
+		top: auto;
+	}
+	#header-II.withoffer .search-course {
+	    /*top: 136px;*/
+	}
+	#header-II #bar-navigation {
+		float:left;
+		margin: 0 15px 0 0;
+    	padding: 13px 15px;
+	}
+	#header-II #bar-navigation,
+	#header-II .navbar-inverse .navbar-toggle:hover,
+	#header-II .navbar-inverse .navbar-toggle:focus {
+		border:none;
+		background:none;
+	}
+	#header-II #bar-navigation > span {
+		background: #3778b0;
+	}
+	#header-II .webinar-profile-name {
+		display:none;
+	}
+	 #header-II .webinar-notify-panel {
+		float: right !important;
+		margin: 0;
+	}
+	#header-II .logo-mobile {
+		padding: 4px 0 !important;
+	}
+	#header-II .navbar-right .dropdown-menu {
+		top: 33px;
+	}
+	#header-II .mobsearch a .search_ico{
+		top: 7px;
+	}
+	#header-II .mobsearch a .search_ico.toggle.fa-search:before {
+		content: "\f00d";
+	}
+	#header-II .notifydrop .dropdown-menu {
+		right: -45px;
+		width:290px;
+	}
+	#header-II .navbar-nav .user-menu {
+		left: auto;
+		right: 0;
+		top: 33px;
+		border-radius: 5px;
+		/*border: 1px solid rgba(0,0,0,.15);*/
+	}
+	#header-II .notificationdropdown li ul.notify::before, #header-II .notificationdropdown li ul.notify::after,
+	#header-II .search-nav .dropdown-menu::before, #header-II .search-nav .dropdown-menu::after {
+		right: 62px;;
+	}
+
+	#header-II .search-course > span {
+		max-width: 740px;
+	}
+	.search-for-course .homesearch > .typeahead-field > .typeahead-button > i.fa-search {
+	    right: 15px;
+	}
+}
+
+
+
+	.mCustomScrollbar{ -ms-touch-action: none; touch-action: none; /* MSPointer events - direct all pointer events to js */ }
+	.mCustomScrollbar.mCS_no_scrollbar, .mCustomScrollbar.mCS_touch_action{ -ms-touch-action: auto; touch-action: auto; }
+	
+	.mCustomScrollBox{ /* contains plugin's markup */
+		position: relative;
+		overflow: hidden;
+		height: 100%;
+		max-width: 100%;
+		outline: none;
+		direction: ltr;
+	}
+
+	.mCSB_container{ /* contains the original content */
+		overflow: hidden;
+		width: auto;
+		height: auto;
+	}
+
+	.mCSB_inside > .mCSB_container{ margin-right: 30px; }
+
+	.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{ margin-right: 0; } /* non-visible scrollbar */
+	
+	.mCS-dir-rtl > .mCSB_inside > .mCSB_container{ /* RTL direction/left-side scrollbar */
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	
+	.mCS-dir-rtl > .mCSB_inside > .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{ margin-left: 0; } /* RTL direction/left-side scrollbar */
+
+	.mCSB_scrollTools{ /* contains scrollbar markup (draggable element, dragger rail, buttons etc.) */
+		position: absolute;
+		width: 16px;
+		height: auto;
+		left: auto;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.mCSB_outside + .mCSB_scrollTools{ right: -26px; } /* scrollbar position: outside */
+	
+	.mCS-dir-rtl > .mCSB_inside > .mCSB_scrollTools, 
+	.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools{ /* RTL direction/left-side scrollbar */
+		right: auto;
+		left: 0;
+	}
+	
+	.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools{ left: -26px; } /* RTL direction/left-side scrollbar (scrollbar position: outside) */
+
+	.mCSB_scrollTools .mCSB_draggerContainer{ /* contains the draggable element and dragger rail markup */
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0; 
+		height: auto;
+	}
+
+	.mCSB_scrollTools a + .mCSB_draggerContainer{ margin: 20px 0; }
+
+	.mCSB_scrollTools .mCSB_draggerRail{
+		width: 2px;
+		height: 100%;
+		margin: 0 auto;
+		-webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;
+	}
+
+	.mCSB_scrollTools .mCSB_dragger{ /* the draggable element */
+		cursor: pointer;
+		width: 100%;
+		height: 30px; /* minimum dragger height */
+		z-index: 1;
+	}
+
+	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ /* the dragger element */
+		position: relative;
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		-webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;
+		text-align: center;
+	}
+	
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, 
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{ width: 12px; /* auto-expanded scrollbar */ }
+	
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, 
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{ width: 8px; /* auto-expanded scrollbar */ }
+
+	.mCSB_scrollTools .mCSB_buttonUp,
+	.mCSB_scrollTools .mCSB_buttonDown{
+		display: block;
+		position: absolute;
+		height: 20px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+
+	.mCSB_scrollTools .mCSB_buttonDown{ bottom: 0; }
+
+
+
+
+	
+	/* theme: "minimal", "minimal-dark" */
+	
+	.mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, 
+	.mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+		right: 0; 
+		margin: 12px 0; 
+	}
+	
+	.mCustomScrollBox.mCS-minimal + .mCSB_scrollTools.mCSB_scrollTools_horizontal, 
+	.mCustomScrollBox.mCS-minimal + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal, 
+	.mCustomScrollBox.mCS-minimal-dark + .mCSB_scrollTools.mCSB_scrollTools_horizontal, 
+	.mCustomScrollBox.mCS-minimal-dark + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal{
+		bottom: 0; 
+		margin: 0 12px; 
+	}
+	
+	/* RTL direction/left-side scrollbar */
+	.mCS-dir-rtl > .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, 
+	.mCS-dir-rtl > .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{
+		left: 0; 
+		right: auto;
+	}
+	
+	.mCS-minimal.mCSB_scrollTools .mCSB_draggerRail, 
+	.mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail{ background-color: transparent; }
+	
+	.mCS-minimal.mCSB_scrollTools_vertical .mCSB_dragger, 
+	.mCS-minimal-dark.mCSB_scrollTools_vertical .mCSB_dragger{ height: 50px; }
+	
+	.mCS-minimal.mCSB_scrollTools_horizontal .mCSB_dragger, 
+	.mCS-minimal-dark.mCSB_scrollTools_horizontal .mCSB_dragger{ width: 50px; }
+	
+	.mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+		background-color: #fff; background-color: rgba(255,255,255,0.2);
+		filter: "alpha(opacity=20)"; -ms-filter: "alpha(opacity=20)"; 
+	}
+	
+	.mCS-minimal.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+	.mCS-minimal.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+		background-color: #fff; background-color: rgba(255,255,255,0.5);
+		filter: "alpha(opacity=50)"; -ms-filter: "alpha(opacity=50)"; 
+	}
+	
+	
+	/* theme: "minimal-dark" */
+	
+	.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+		background-color: #000; background-color: rgba(0,0,0,0.2);
+		filter: "alpha(opacity=20)"; -ms-filter: "alpha(opacity=20)"; 
+	}
+	
+	.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+	.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+		background-color: #000; background-color: rgba(0,0,0,0.5);
+		filter: "alpha(opacity=50)"; -ms-filter: "alpha(opacity=50)"; 
+	}
+	
+	/* ---------------------------------------- */
+	
+
+
+.bootstrap-tagsinput {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  display: inline-block;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  color: #555;
+  vertical-align: middle;
+  border-radius: 4px;
+  max-width: 100%;
+  width: 100%;
+  line-height: 22px;
+  cursor: text;
+}
+.bootstrap-tagsinput input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: auto !important;
+  max-width: inherit;
+}
+.bootstrap-tagsinput input:focus {
+  border: none;
+  box-shadow: none;
+}
+.bootstrap-tagsinput .tag {
+  margin-right: 2px;
+  color: white;
+}
+.bootstrap-tagsinput .tag [data-role="remove"] {
+  margin-left: 8px;
+  cursor: pointer;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:after {
+  content: "x";
+  padding: 0px 2px;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+
+*{
+    outline:0 !important;
+}
+
+/*referral-cornerr*/
+.modal-backdrop {
+  /*  position: absolute !important;*/
+}
+.modal{
+    overflow-y: auto !important;
+}
+div.referral-module textarea, div#importcontact textarea {
+    resize: vertical;    
+}
+.tab-panel-referel > .nav > li > a > i{
+    float: none;
+    margin-right: 0;
+    font-size: 2em !important;
+}
+.tab-panel-referel {
+    margin-top: -15px;
+    -webkit-margin-before: 0px;
+}
+#referralForm > div > div > div > .bootstrap-tagsinput {
+    overflow-y: auto;
+    max-height: 75px;
+    font-size: 13px;
+}
+#btnShareinTwitter,#btnShareinLinkedIn,.successalertbtn{
+	background-color: #428bca !important;
+    border-color: #357ebd !important;
+    color: #fff !important;
+	font-size: 14px !important;
+    font-weight: 400 !important;
+	padding: 6px 12px !important;
+	text-align: center !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+	display: inline-block !important;
+}
+.ogimage{
+    width: 137px;
+}
+#share_alert {
+    left: 0;
+    position: relative;
+    top: 3px;
+    width: 100%;
+}
+.alert-notify {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 0 !important;
+    padding: 15px;
+}
+.tab-content-referral {
+    background: #f1f1f1 none repeat scroll 0 0;
+    font-family: open sans !important;
+    font-size: 13px;
+    padding: 15px;
+    word-wrap: break-word;
+}
+.tab-panel-referel ul {
+    float: none;
+}
+.tab-panel-referel > .nav-tabs{ border-bottom: medium none;}
+.tab-panel-referel .nav-tabs > li {
+    border: 1px solid #bdbdbd !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.tab-panel-referel .nav-tabs > li > a {
+    margin: 0 !important;
+    text-align: center;
+    color: #bdbdbd;
+}
+.tab-panel-referel .nav-tabs > li.active > a, .tab-panel-referel .nav-tabs > li.active > a:hover, .tab-panel-referel .nav-tabs > li.active > a:focus {
+    background-color: #e75a4d !important;
+    border-radius: 0;
+    border-style: none;
+    border-width: medium;
+    color: #ffffff;
+    outline: medium none;
+}
+
+.tab-panel-referel .nav-tabs > li.active > a.fb{
+    background:#3b589e;
+}
+.tab-panel-referel .nav-tabs > li.active > a.twitter{background:#65a0cc !important;}
+.tab-panel-referel .nav-tabs > li.active > a.linkedin{background:#0177b5 !important;}
+.tab-panel-referel .nav-tabs > li.active > a.faq{background:#5591c3 !important;}
+.tab-panel-referel .nav-tabs > li > a.faq{background:#bdbdbd;color:#ffffff; border:0 !important; border-radius:0;}
+
+.reftabsmall {
+    width: 10%;
+}
+.edureka-referral-add {
+    border: 1px solid #ddd;
+    background:#ffffff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 13px;
+}
+.referal-edu-logo {
+    padding-top: 42px;
+}
+
+/*New css for referal pop up*/
+.reftab{
+    width: 30%;
+}
+.tab-content-referral .form-control{
+    background:transparent;
+    font-size: 13px;
+}
+.red{
+    color: #ff0004 !important;
+}
+.closeref{
+    position: absolute;
+    right: -21px !important;
+    top: -12px;
+}
+.whiteback{
+    background: #fff none repeat scroll 0 0 !important;
+}
+.module-details h3 {
+    border-bottom: 1px solid #777;
+    color: #333;
+    font-family: open sans;
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.faqtabsec{}
+.faqtabsec h4 {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.faqtabsec ol {
+    color: #333;
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: -23px;
+    padding: 0 0 0 39px;
+    list-style-type:number;
+}
+.faqtabsec ol li{}
+.borderleft{
+    border-left:1px solid #333;
+}
+.tab-panel-referel .nav-tabs > li > a{
+    border:0 !important;
+}
+.importcontact {
+    padding-top: 4px;
+}
+.importcontact img {
+    padding-left: 4%;
+}
+.tab-content-referral label {
+    color: #39393b;
+    font-weight: lighter;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.buttonfoot small{
+    font-size: 12px !important;
+}
+.refheading{}
+.refheading span {
+    color: #333333;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.notmsgsec{
+    display:none;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:0 auto;
+    top:2px;
+    padding: 15px;
+}
+.importcont{border-radius: 0;}
+.importcont > .modal-header {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-radius: 0;
+}
+.importcont > .modal-header > h4 {
+    color: #333333;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.importcont > .modal-body {
+    padding: 0;
+}
+.inputsearch {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 0px;
+}
+.importcont > .modal-body > div > input[type="search"] {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px 10px 10px 30px;
+    text-indent: 4px;
+    width: 96%;
+    background-image: url(/img/icon-search.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+.importcont > .modal-body > div > input, .importcont > .modal-body > div > textarea {
+    font-size: 13px;
+}
+.useremailid {
+    border-bottom: 1px solid #dff0d8;
+    padding: 10px 20px !important;
+    color: #8e8f8f;
+}
+.useremailid > div > span {
+    margin: 0;
+    display:inline;
+    width: 100%;
+}
+.importcont > .modal-body > .userdetailsec {
+}
+.importcont > .modal-footer {
+    margin: 0;
+    border-radius: 0;
+    text-align: left;
+}
+.importcont > .modal-footer > div > span{
+    margin:0;
+    color:#888888;
+    display:inline;
+    width:100%;
+}
+.userdetailsec {
+    max-height: 205px;
+    min-height: auto;
+    overflow-y: auto;
+}
+.checkbox > label{font-weight: bold;}
+.padding-right{
+    padding-right:0 !important;
+}
+/*.img-responsive, */.thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+@media only screen and (min-width:960px) {
+    .importcontact img {
+        max-width: 13%;
+        width: 100%;
+    }
+    .importcontact {
+        white-space: nowrap;    
+    }
+}
+/* End New css for referal pop up*/
+@media only screen and (min-width:320px) and (max-width: 767px)  {
+    .responimage{height: 103px;
+                 overflow: hidden;}
+    .responimage > .ogimage{position: relative;
+                            top: -45px;}
+    .borderleft{
+        border:0;
+        margin-top:20px;
+    }
+    .reftabsmall {
+        width: 25%;
+    }
+    .reftab {
+        width: 25%;
+    }
+    .refheading span { 
+        font-size: 1em;
+    }
+    .importcontact img {
+        padding-left: 5%;
+        width: 12%;
+    }
+    .importcontact {
+        font-size: 1em;
+        padding-left: 0;
+        /*padding-top: 14px;*/
+        text-align: center;
+    }
+    .tab-panel-referel .nav-tabs > li.active > a, .tab-panel-referel .nav-tabs > li.active > a:hover, .tab-panel-referel .nav-tabs > li.active > a:focus{
+        padding: 5px 0 7px;
+    }
+    .tab-panel-referel .nav-tabs > li > a {
+        padding: 5px 0 7px;
+    }
+    .tab-content-referral {
+        font-size: 1em;
+        padding: 7px;
+    }
+    .tab-content-referral .form-control {
+        font-size: 1em;
+        padding: 5px;
+    }
+    .referal-edu-logo {
+        padding-top: 16px;
+    }
+}
+@media only screen and (min-width:991px) and (max-width: 1200px)  {
+    .importcontact img {
+        padding-left: 5%;
+        width:13%;
+    }
+
+}
+@media only screen and (min-width:320px) and (max-width: 991px)  {
+    .modal-mobilespace{
+        width: 96%;
+        margin:0 auto;
+        top:20px;
+    }
+    .importcontact {
+        /*padding-top: 14px;  */
+        text-align: center;
+    }
+    .closeref {
+        position: absolute;
+        right: -14px;
+        top: -12px;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari and Chrome */
+
+
+    /* Safari only override */
+    ::i-block-chrome,.tab-panel-referel {
+        -webkit-padding-before: 13px;
+    }
+}
+
