@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Proplistings
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
@@ -29,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # Top-Movies
 >>>>>>> c433ecf18b9d8022124458be139d58d2113e08b9
+=======
+# Top-Movies - Updated
+>>>>>>> 72e57e11535a68c200b2c5a23c296488cae6b1d9
